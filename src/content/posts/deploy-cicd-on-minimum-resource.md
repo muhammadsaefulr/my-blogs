@@ -13,7 +13,7 @@ Sebagian developer sangat ingin membuat sesuatu, tapi kadang terkendala dengan r
 Di sini, aku akan coba membahas cara mengakali keterbatasan tersebut agar service yang dibuat tetap bisa dijalankan di VPS, **tanpa harus membebani server** saat build. Caranya adalah dengan memanfaatkan **Docker Hub** untuk menyimpan image, dan **GitHub Actions** untuk otomatisasi build & push image.
 
 <div align="center">
-  <img src="/src/assets/images/content/Capture-Github-Actions.png" alt="Github Actions Screenshot" width="600"/>
+  <img src="/contents/Capture-Github-Actions.png" alt="Github Actions Screenshot" width="600"/>
 </div>
 
 Dengan pendekatan ini:
