@@ -1,8 +1,8 @@
 ---
-title: Mengenal Konsep Design System: Clean Architecture
+title: "Mengenal Konsep Design System: Clean Architecture"
 published: 2026-03-11
 tags: [Software Architecture, Blogging, Backend, System Design]
-category: System Design
+category: 'System Design'
 draft: false
 ---
 
@@ -31,7 +31,7 @@ Clean Architecture membantu kita membuat sistem yang **terstruktur, mudah dipaha
 
 ---
 
-# Apa Itu Clean Architecture?
+## Apa Itu Clean Architecture?
 
 Clean Architecture adalah konsep arsitektur software yang diperkenalkan oleh Robert C. Martin (Uncle Bob).
 
@@ -48,7 +48,7 @@ Dengan pemisahan ini kita mendapatkan beberapa keuntungan:
 
 ---
 
-# Masalah Umum Tanpa Arsitektur yang Jelas
+## Masalah Umum Tanpa Arsitektur yang Jelas
 
 Kita coba lihat contoh struktur project yang sering terjadi.
 
@@ -101,7 +101,7 @@ Semakin besar project, semakin terasa dampaknya.
 
 ---
 
-# Konsep Dasar Clean Architecture
+## Konsep Dasar Clean Architecture
 
 Clean Architecture biasanya dibagi menjadi beberapa layer:
 
@@ -125,7 +125,7 @@ Mari kita bahas satu per satu.
 
 ---
 
-# 1. Entities (Domain)
+### 1. Entities (Domain)
 
 Ini adalah inti dari aplikasi.
 
@@ -150,7 +150,7 @@ Tujuannya supaya domain logic tetap bersih.
 
 ---
 
-# 2. Usecase (Business Logic)
+### 2. Usecase (Business Logic)
 
 Layer ini berisi logic aplikasi.
 
@@ -177,7 +177,7 @@ Usecase hanya tahu **apa yang harus dilakukan**, bukan **bagaimana implementasin
 
 ---
 
-# 3. Repository
+### 3. Repository
 
 Repository adalah layer yang bertugas berkomunikasi dengan database.
 
@@ -201,7 +201,7 @@ Usecase tidak perlu tahu.
 
 ---
 
-# 4. Handler / Controller
+### 4. Handler / Controller
 
 Layer ini menangani request dari luar.
 
@@ -235,7 +235,7 @@ Controller hanya bertugas:
 
 ---
 
-# Prinsip Penting Clean Architecture
+## Prinsip Penting Clean Architecture
 
 Ada satu aturan utama:
 
@@ -260,7 +260,7 @@ Dengan begitu, domain tetap stabil walaupun teknologi berubah.
 
 ---
 
-# Contoh Struktur Project
+## Contoh Struktur Project
 
 Contoh struktur project:
 
@@ -285,7 +285,7 @@ Struktur seperti ini membuat code lebih mudah dipahami oleh developer lain.
 
 ---
 
-# Kapan Clean Architecture Dibutuhkan?
+## Kapan Clean Architecture Dibutuhkan?
 
 Clean Architecture sangat berguna ketika:
 
@@ -298,7 +298,7 @@ Namun untuk project kecil atau prototype, arsitektur sederhana mungkin sudah cuk
 
 ---
 
-# Penutup
+## Penutup
 
 Clean Architecture bukan sekadar membuat folder yang banyak.
 
