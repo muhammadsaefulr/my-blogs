@@ -275,8 +275,6 @@ Akibatnya:
   <img src="/contents/informasi-palsu.jpg" alt="Github Actions Screenshot" width="600"/>
 </div>
 
-<center> Padahal kursinya cuma satu ( Ngawur cik kalo 1 kursi mau di pangku" an apa gimana ) </center>
-
 ## Solusi Dengan Locking
 
 PostgreSQL menyediakan `FOR UPDATE` untuk mengunci data selama transaction berjalan.
