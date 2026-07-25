@@ -16,10 +16,11 @@ Saya menghabiskan sebagian besar waktu saya dengan:
 - **[Emailsopo](https://emailsopo.msaepul.my.id)** 
 Layanan validasi email dengan fitur **SMTP check** dan **bulk validation**, membantu bisnis memastikan kualitas data email agar lebih efektif digunakan untuk campaign dan menghindari fake order atau sebagainya.
 
+- **[Bloom Task Management Platform](https://bloom.msaepul.my.id) On Progress WIP** 
+Tools task management berbasis tenant untuk alat koordinasi antar team dengan dukungan AI Assisant untuk membantu team untuk mengelola tugas lebih nyaman dan efisien.
 
-- **[Streaming App Backend Platform](https://streamapp.msaepul.my.id)**
-Backend platform untuk aplikasi streaming dengan fokus pada skalabilitas, dan integrasi dengan ranking site seperti anilist, mydramalist.
-
+- **[Bloom Links](https://links.msaepul.my.id) On Progrss WIP** 
+Layanan Untuk menyimpan berbagai link, sosial media ataupun tentang dirimu, disini kamu bebas mengekspresikan apa yang orang ingin ketahui tentang kamu, dengan tampilan editor berbasis drag n drop component, kamu bisa taruh dan sesuaikan tampilan yang kamu mau.
 
 ---
 
